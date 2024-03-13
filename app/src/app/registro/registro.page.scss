@@ -1,0 +1,23 @@
+/* footer*/
+
+.footer {
+    background-color: blue; /* Cambia el color de fondo a azul */
+    color: white; /* Cambia el color del texto a blanco */
+    padding: 20px; /* Añade espacio interno al footer */
+    text-align: center; /* Centra el contenido del footer */
+  }
+  
+  .social-icons {
+    margin-top: 10px; /* Espacio entre los iconos y el texto */
+  }
+  
+  .social-icons a {
+    margin: 0 10px; /* Espacio entre los iconos */
+    text-decoration: none;
+    color: white; /* Color del icono */
+  }
+  
+  .social-icons img {
+    width: 30px; /* Tamaño de los iconos */
+    height: 30px;
+  }

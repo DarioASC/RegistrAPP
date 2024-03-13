@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button [routerLink]="['/home']">
+        <ion-icon slot="icon-only" name="home"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>API</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-content>
+    <ion-button expand="block" id="enviar">Cargar API</ion-button>
+    <div id="categorias" class="card-container">
+      <!-- Aquí se agregarán las tarjetas -->
+    </div>
+  </ion-content>
+</ion-content>
+

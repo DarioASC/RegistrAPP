@@ -1,0 +1,33 @@
+<!-- asistencia.page.html -->
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button [routerLink]="['/home']">
+        <ion-icon slot="icon-only" name="home"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Asistencia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Asistencia</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-card *ngFor="let asistencia of asistenciaCollection$ | async">
+      <ion-card-header>
+        <ion-label>Sección: {{ asistencia.seccion }}</ion-label>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-label>Asignatura: {{ asistencia.asignatura }}</ion-label>
+      </ion-card-content>
+      <ion-card-content>
+        <ion-label>Fecha: {{ asistencia.fecha }}</ion-label>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>
+</ion-content>

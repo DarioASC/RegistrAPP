@@ -1,0 +1,58 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.titulo{
+  margin-left: 110px;
+}
+.boton{
+  margin-left: 100px;
+}
+
+/* footer*/
+
+.footer {
+  background-color: blue; /* Cambia el color de fondo a azul */
+  color: white; /* Cambia el color del texto a blanco */
+  padding: 20px; /* Añade espacio interno al footer */
+  text-align: center; /* Centra el contenido del footer */
+}
+
+.social-icons {
+  margin-top: 10px; /* Espacio entre los iconos y el texto */
+}
+
+.social-icons a {
+  margin: 0 10px; /* Espacio entre los iconos */
+  text-decoration: none;
+  color: white; /* Color del icono */
+}
+
+.social-icons img {
+  width: 30px; /* Tamaño de los iconos */
+  height: 30px;
+}
